@@ -3,7 +3,7 @@ let buttonColors = ["red","blue","green","yellow"]
 let userPattern = []
 
 function playSound(name){
-    let sound = new Audio("sounds/"+name+".mp3")
+    let sound = new Audio(name+".mp3")
     sound.play();
 }
 let started = false
