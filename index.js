@@ -67,7 +67,7 @@ function checkAnswer(index){
        }
 
 }
-$(document).click(function(){
+$(document).keypress(function(){
   
    if(!started){
     started= true;
